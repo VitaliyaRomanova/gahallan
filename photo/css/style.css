@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -27,13 +27,13 @@ body {
 }
 
 a {
-  color: #d3387b;
+  color: #e8c44f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #d3387b;
+  color: #e8c44f;
   outline: none;
 }
 
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #d3387b;
+  background: #e8c44f;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #d3387b;
+  background: #e8c44f;
 }
 
 ::selection {
   color: #fff;
-  background: #d3387b;
+  background: #e8c44f;
 }
 
 #fh5co-page {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000 url("../images/img_7.jpg") no-repeat;
+  background: #000 url("../images/img_13.jpg") no-repeat;
   z-index: 1;
 }
 #fh5co-aside > .row {
@@ -186,14 +186,14 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-transform: scale(0);
   -o-transform: scale(0);
   transform: scale(0);
-  background: #d3387b;
-  background: -moz-linear-gradient(left, #d3387b 0%, #8628cd 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #d3387b), color-stop(100%, #8628cd));
-  background: -webkit-linear-gradient(left, #d3387b 0%, #8628cd 100%);
-  background: -o-linear-gradient(left, #d3387b 0%, #8628cd 100%);
-  background: -ms-linear-gradient(left, #d3387b 0%, #8628cd 100%);
-  background: linear-gradient(to right, #d3387b 0%, #8628cd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3387b', endColorstr='#8628cd', GradientType=1 );
+  background: #e8c44f;
+  background: -moz-linear-gradient(left, #e8c44f 0%, #2b6358 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #e8c44f), color-stop(100%, #2b6358));
+  background: -webkit-linear-gradient(left, #e8c44f 0%, #2b6358 100%);
+  background: -o-linear-gradient(left, #e8c44f 0%, #2b6358 100%);
+  background: -ms-linear-gradient(left, #e8c44f 0%, #2b6358 100%);
+  background: linear-gradient(to right, #e8c44f 0%, #2b6358 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8c44f', endColorstr='#2b6358', GradientType=1 );
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -300,14 +300,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   z-index: 2;
   vertical-align: middle;
-  background: rgba(211, 56, 123, 0.67);
-  background: -moz-linear-gradient(left, rgba(211, 56, 123, 0.77) 0%, rgba(134, 40, 205, 0.77) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(211, 56, 123, 0.77)), color-stop(100%, rgba(134, 40, 205, 0.77)));
-  background: -webkit-linear-gradient(left, rgba(211, 56, 123, 0.77) 0%, rgba(134, 40, 205, 0.77) 100%);
-  background: -o-linear-gradient(left, rgba(211, 56, 123, 0.77) 0%, rgba(134, 40, 205, 0.77) 100%);
-  background: -ms-linear-gradient(left, rgba(211, 56, 123, 0.77) 0%, rgba(134, 40, 205, 0.77) 100%);
-  background: linear-gradient(to right, rgba(211, 56, 123, 0.77) 0%, rgba(134, 40, 205, 0.77) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3387b', endColorstr='#8628cd', GradientType=1 );
+  background: rgba(71, 145, 124, 0.77);
+  background: -moz-linear-gradient(left, rgba(71, 145, 124, 0.77) 0%, rgba(232, 196, 79, 0.77) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(71, 145, 124, 0.77)), color-stop(100%, rgba(232, 196, 79, 0.77)));
+  background: -webkit-linear-gradient(left, rgba(71, 145, 124, 0.77) 0%, rgba(232, 196, 79, 0.77) 100%);
+  background: -o-linear-gradient(left, rgba(71, 145, 124, 0.77) 0%, rgba(232, 196, 79, 0.77) 100%);
+  background: -ms-linear-gradient(left, rgba(71, 145, 124, 0.77) 0%, rgba(232, 196, 79, 0.77) 100%);
+  background: linear-gradient(to right, rgba(71, 145, 124, 0.77) 0%, rgba(232, 196, 79, 0.77) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8c44f', endColorstr='#2b6358', GradientType=1 );
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
