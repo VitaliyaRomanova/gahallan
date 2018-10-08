@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+<head>
+	<meta charset="utf-8">
+	<title>Определи поэта по внешности</title>
+	<link href="hard.css" rel="stylesheet" type="text/css" />
+ </head>
+
+<body>
+	<div id="start">
+		<h1>Насколько хорошо вы знаете внешность поэтов серебрянного века?</h1>
+		<p>Все мы знаем нос с горбинкой Ахматовой и незабываемую внешность Маяковского всего целиком. Но что насчет остальных? Попробуй определить поэта по описанию!</p>
+		<input type="button" id="startButton" value="Старт">
+	</div>
+	<div id='question' style="display: none;">
+		<h2 id="summary" style="display: none;"></h2>
+		<label id="answerLabel" for="answer"></label><br><br>
+		<input type="text" name="poetNames" id="answer" value=""><br><br>
+		<input type="button" id="checkAnswer" value="Проверить ответ">
+		<input type="button" id="next" value="Дальше" >
+	</div>
+	<script src="hard.js"></script>
+ </body>
+</html>
