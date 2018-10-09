@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="istudy">
+  <meta http-equiv="X-UA-Compatible">
+  <link href="form.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <form id="myform" method="post">
+<label>Представьтесь, пожалуйста</label>
+<input type="text" name="from_name" />
+<label>Введите ваше сообщение!</label>
+<input type="text" name="message" />
+<br><br>
+<button>
+Отправить
+</button>
+</form>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript" src="form.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_roR4f81E4WDCjPtmYqsmW");
+   })();
+</script>
+
+</body>
