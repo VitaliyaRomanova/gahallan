@@ -104,6 +104,28 @@
 						<div class="col-md-6">
 							<p>Anyway, welcome. Hope you will enjoy the art. In particular, if you are an employer. Because i always need a job.</p>
 						</div>
+
+						<form id="myform" method="post">
+<label>Name yourself, please</label>
+<input type="text" name="from_name" />
+<label>Write your message here!</label>
+<input type="text" name="message" />
+<br><br>
+<button>
+Send!
+</button>
+</form>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript" src="form.js"></script>
+<script type="text/javascript">
+	(function(){
+		 emailjs.init("user_roR4f81E4WDCjPtmYqsmW");
+	})();
+</script>
+
 						<div class="col-md-12 fh5co-social">
 							<a href="https://vk.com/fgfgfgfgfg402"><i class="icon-vk"></i></a>
                                                         <a href="http://fgfgfgfgfg-402.deviantart.com/"><i class="icon-deviantart"></i></a>
