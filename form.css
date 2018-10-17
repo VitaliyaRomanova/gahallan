@@ -34,3 +34,7 @@ form label {
   margin-bottom: 2px;
   display: block;
 }
+
+form input: focus {
+border-color: #e8c44f 
+}
